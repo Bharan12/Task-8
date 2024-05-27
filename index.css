@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: x-large;
+    background-color: #cad2c5;
+}
+
+.title {
+    background-color: #2f3d46;
+}
+
+.img {
+    height: 40px;
+    padding: 30px;
+    margin-left: 0px;
+}
+
+.name {
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    right: 48%;
+    top: 40px;
+}
+
+.box1 {
+    background-color: #353535;
+    height: 500px;
+    width: 20%;
+    margin: 100px;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.searchbox::-webkit-input-placeholder{
+    color: white;
+    opacity: 50%;
+}
+.searchbox {
+    color: white;
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-size: large;
+    border: none;
+    padding: 15px;
+    width: 40%;
+    display: inline-block;
+    position: absolute;
+    top: 21%;
+    right: 15%;
+    background-color: #353535;
+    border-radius: 12px;
+}
+
+.box2 {
+    display: flex;
+    position: absolute;
+    right: 5.5%;
+    top: 35%;
+}
+
+.box {
+    background-color: #353535;
+    margin-right: 100px;
+    height: 200px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+.box3 {
+    background-color: #353535;
+    height: 150px;
+    width: 51%;
+    position: absolute;
+    top: 65%;
+    right: 10%;
+    border-radius: 25px;
+
+}
